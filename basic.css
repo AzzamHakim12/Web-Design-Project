@@ -1,0 +1,88 @@
+* { /* This is the styling for every single element in the html file */
+	margin: 0;
+	padding: 0;
+  }
+
+body { /* This is the general styling for elements in body documents*/ 
+  line-height: 25px;
+  font-size: 16px;
+  font-family: "Crimson Text", serif;
+  font-weight: 600;
+  background-color:#FCF6F5FF;
+    color: #777777;}
+
+.content{ /* This is styling for element that has content class in it. Its highly recommended used with div elements */
+    font-family: Helvetica;
+    }
+
+div,p{font-size: 14px;} /* This is styling for every div and also p element */
+
+h1,h2,h3,h4,h5,h6 { /* This is stylings for every single headings in the documents */
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  color: #222222; }
+
+a { /* This is styling for every a elements in the html file. Its usually used when you have a link in ur html file */
+  text-decoration: none;
+  transition: all 0.3s ease-in-out; 
+  color: #222222;}
+
+a:hover{ /* This is stylings for a link, if the mouse is hovering above that part */
+    color: #00aee0;
+    outline: none; }
+
+.header{ /* This is stylings for element that has header class. Its highly recommended to use div elements for this class*/
+    position:sticky;
+    top: 0;
+    width: 100%;
+    background: linear-gradient(to top, #f5af19, #f12711);
+    border: 0px;
+    font-family: "Montserrat", sans-serif;
+    color: #FCF6F5FF;
+    height:75px;}   
+
+#hleft{ /* This is stylings for element that has hleft as their ID. We use this for our website name/title(1 or 2 words of the title). Its highly recommended to use div elements for this id */
+    padding-top:25px;
+    padding-bottom: 25px;
+    padding-left: 20px;
+    font-size: 36px;
+    font-style: bold;
+    float: left;    
+    width: 250px;}
+
+#hright{ /* This is stylings for element that has hright as their ID. We use this for our menu container in the webpage become in one row. For now, we have 4 menus. For this template, the menus maximum will be 4 or 5 menus. If you need more menus, edit the width of this styling become bigger ( if you need 6 menus, make the width become 600) */
+    padding-top:25px;
+    padding-bottom: 25px;
+    padding-left: 20px;
+    font-size: 16px;
+    float: right;
+    width: 400px;}
+
+#hright ul li{ /* This is stylings for the menu template display*/
+    display: block;
+    }
+
+#hright li a{   /* This is stylings for the menu's text that has a link in it.*/
+    color : #FCF6F5FF;
+    float: left;
+    margin-left:10px;
+    margin-right:10px;
+    font-weight: 100;
+    font-family: sans-serif;
+}
+
+#hright a:hover{ /* This is stylings for the menu's text that has a link in it, when the mouse is hovering above that part */
+    color:#777777;}
+
+.footer{ /* This is the stylings for the footer part. Its highly recommended to use div elements for this class */
+    clear:both;
+    height:50px;
+    width:100%;
+    background-color: #343D48;
+    position : relative;
+    bottom:0;
+    font-family: calibri;
+}
+.footer h4 /* This is the stylings for the heading 4 in footer part. We use this to differentiate the color between normal text and h4. It will take effect when u have heading 4 inside the div that has footer id */
+{color:white}
+    

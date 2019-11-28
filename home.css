@@ -1,0 +1,47 @@
+.button { /* this is style for button. if we click this button, it will go to the another page */
+        margin-left: 41.5%;
+        margin-bottom: 10%;
+        margin-top: 100px;
+        background: linear-gradient(to right, #f09819, #edde5d); 
+		color: white;
+		border: 2px solid #cecece;
+		border-radius: 10px;
+		padding: 30px;
+        font-size: 15px;
+        box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.4);
+	}
+.button a{ /* this is style for button that has hyperlink. if we click this button, it will go to the another page  */
+    color: white;}
+
+.button:hover { /* this is style for button. if the mouse directed to this part, it will be hovering. */
+        background: linear-gradient(to right, #f09819, #edde5d);
+        border: 1px solid #b1b1b1;
+		box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+	}
+
+body.home { /* this is for the appearance of background homepage. if you want to change the background picture, dont forget to change the url name */
+    background-image: url(../img/buku-background.jpg)
+}
+
+
+h2 { /* this is style for the first sentence. */
+    color:bisque;
+    text-align: center;
+    margin-top: 50px;
+    font-size: 30px;
+}
+
+h2.down { /* this is style for the second sentence (that bigger than the fisrt sentence)  */
+    color:lightsalmon;
+    text-align: center;
+    margin-top: 50px;
+    font-size: 35px;
+}
+
+p { /* this is the last sentence before button. and this text is the smallest */
+    color: beige;
+    text-align: center;
+    margin-top: 50px;
+    font-size: 20px;
+}
+		

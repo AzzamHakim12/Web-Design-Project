@@ -1,0 +1,65 @@
+/* This css can be us in login and register menu*/
+
+body{/*This part is to put the background image for the page*/
+    font-family: helvetica;
+    background: #FCF6F5FF;
+    background-image: url(../img/belajar.jpg);
+    background-repeat: no-repeat;
+    background-size: cover} 
+
+b{/*Please use this menu as the title part inside the .square*/
+    font-family: helvetica;
+    font-size: 28;
+    text-align: left;
+    color: white}
+
+a{/*This part is only to link a text to the other page*/
+    font-family: helvetica;
+}
+
+.title{/*Please use this menu as the title part inside the .square*/
+    text-align: left;
+    text-transform: uppercase;}
+
+.square{/*Use this css to make an outline of your login or register part*/
+    width: 350px;
+    background-color: #101820FF;
+    margin: 20px auto;
+    padding: 30px 20px;
+    border-radius: 20px;}
+
+.loginform{/*Use this css to allow users input their own data*/
+    box-sizing : border-box;
+    width: 100%;
+    padding: 10px;
+    font-size: 11pt;
+    margin-bottom: 20px;
+    background-color: white;
+    border-radius: 5px;}
+
+.nameform{/*Same as loginform, but this css is allowing users to capitalize automatically*/
+    text-transform: capitalize;
+    box-sizing : border-box;
+    width: 100%;
+    padding: 10px;
+    font-size: 11pt;
+    margin-bottom: 20px;
+    border-radius: 5px;}
+
+.button{/*Use this css only for button either login or register*/
+    background: linear-gradient(to right, #11998e, #38ef7d);
+    color: white;
+    font-size: 11pt;
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;}
+
+.button:hover{/*This css to different if the button is hover*/
+    background: linear-gradient(to left, #11998e, #38ef7d)
+}
+
+.link{/*Use this css to able clicking the other webpage*/
+    color: white;
+    text-decoration: none;
+    font-size: 10pt;}

@@ -1,0 +1,64 @@
+/* Created by Francis Dwiputra Abdikesuma */
+.banner{ /* This is the stylings for the banner class element. Its highly recommended to use div if you want to use this class. If you want to use the picture backgroudn, remember to change the url() */
+background: url(../img/Book.jpg) no-repeat center;
+min-height:175px;
+background-size:cover;
+text-align: center;}
+
+.banner h1{ /* This is the stylings for heading 1 inside a div that has banner class. We use this for the main title of the page. */
+padding-top:50px;
+font-size:58px;
+color:white;}
+
+#nav{ /* This is styling for navigation part of the content. Its highly recommended to use div class for this id and put it inside the div that has content class in it. It will be on the left side in content class div*/
+    position:fixed;
+    top:250px;
+    float:left;
+    background-color:white;
+    font-size:20px;
+    padding:10px;
+    float:left;
+    width:20%;
+}
+
+#nav ul ol a{ /* This is the styling for the main point of the navigation in content class div. This is used for adding navigation hyperlink to go to certain part in the documents*/
+    font-size:16px;
+    color:black;}
+#nav ol a:hover{ /* This is the styling for the main point of the navigation in content class div, when your mouse is hovering above that part*/
+    line-height: 2px;
+    color:red}
+
+#nav li a{ /* This is the styling for the sub point of the main point in navigation in content class div. This is used for adding navigation hyperlink to go to certain part in the documents*/
+    font-size:14px;
+    color:#777777;}
+#nav li a:hover{ /* This is the styling for the sub point of the main point in navigation in content class div, when your mouse is hovering above that part*/
+    color:red;}
+
+.cright{ /* This is a general styling for the explanation of the content. It will be displayed on the right hand side. Its highly recommended to use div for this class*/
+    float:right;
+    width:75%;}
+
+.cright img{ /* This is the styling for all of the images in the explanation content. So the effect will only take effects if the images are inside the div that has cright class */
+    margin-left:25px;
+    margin-right:10px;
+    float:left;
+    height:200px;
+    width:120px;}
+
+.cright h1,h2{ /* This is the stylings for every single heading 1 and heading 2 in the explanation part. So the effect will only take effects if the heading 1 and heading 2 are inside the div that has cright class */
+    margin-top:10px;
+    margin-bottom:10px;
+    margin-left:25px;
+    text-align:left;}
+
+.cright p{ /* This is the styling for p elements in the explanation part. So the effect will only take effects if the p elements are inside the div that has cright class*/
+    font-family: Helvetica;
+    font-size:12px;
+    margin-left:25px;
+    text-align:left;
+    color:#777777;}
+    
+#1a,#1b,#1c,#2a,#2b,#2c,#3a,#3b,#3c{ /* This is the styling for the elements that have one of the Id. The ID will be used for the hyperlink in the navigation part. You can also add more or delete the id if your webpage need more or less. */
+    margin:0;
+    padding:0;}
+    
