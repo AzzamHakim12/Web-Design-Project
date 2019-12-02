@@ -2,7 +2,7 @@
 /*All of the styling must use div*/
 .bannerarea {
     /* This is style for the banner picture that used as the background (Note: The opacity of the background should be a bit low because it will be used as a background)*/
-  background: url(..banner3.jpg) no-repeat center;/*Recommended size of the photo is 1920*392 px)*/
+  background: url(banner3.jpg) no-repeat center;/*Recommended size of the photo is 1920*392 px)*/
   min-height: 392px;
   background-size: cover; 
 }
