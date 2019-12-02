@@ -21,7 +21,7 @@
 	}
 
 body.home { /* this is for the appearance of background homepage. if you want to change the background picture, dont forget to change the url name */
-    background: url('..tomsk9.jpg');
+    background: url(tomsk9.jpg);
     background-size: cover; 
 
 }
