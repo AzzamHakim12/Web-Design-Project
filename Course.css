@@ -1,4 +1,3 @@
-/* Created by Tania Sari Dewi */
 .banner{ /* This is the stylings for the banner class element. Its highly recommended to use div if you want to use this class. If you want to use the picture backgroudn, remember to change the url() */
 background: url(banner5.jpg) no-repeat center;
 min-height:175px;
