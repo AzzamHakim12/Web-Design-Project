@@ -3,7 +3,7 @@
 body{/*This part is to put the background image for the page*/
     font-family: helvetica;
     background: #FCF6F5FF;
-    background-image: url(../img/belajar2.jpg);
+    background-image: url(belajar2.jpg);
     background-repeat: no-repeat;
     background-size: cover} 
 
