@@ -3,7 +3,7 @@
 body{/*This part is to put the background image for the page*/
     font-family: helvetica;
     background: #FCF6F5FF;
-    background-image: url(belajar2.jpg);
+    background-image: /*(../img/belajar.jpg);*/ url(belajar2.jpg);
     background-repeat: no-repeat;
     background-size: cover} 
 
@@ -47,7 +47,7 @@ a{/*This part is only to link a text to the other page*/
     border-radius: 5px;}
 
 .button{/*Use this css only for button either login or register*/
-    background: rgba(241, 104, 118, 1);
+    background: /*linear-gradient(to right, #11998e, #38ef7d);*/ rgba(241, 104, 118, 1);
     color: white;
     font-size: 11pt;
     width: 100%;
@@ -56,7 +56,7 @@ a{/*This part is only to link a text to the other page*/
     padding: 10px 20px;}
 
 .button:hover{/*This css to different if the button is hover*/
-    background: rgb(59, 88, 184);
+    background: /*linear-gradient(to left, #11998e, #38ef7d)*/rgb(59, 88, 184);
 }
 
 .link{/*Use this css to able clicking the other webpage*/
